@@ -58,6 +58,7 @@ def rfm_df(df):
     return rfm_df
 
 # Load dataset 
+# all_df = pd.read_csv("all_df.csv")
 all_df = pd.read_csv("all_df.csv")
 
 # Mengatasi NaN pada order_purchase_timestamp
