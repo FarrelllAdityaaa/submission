@@ -59,7 +59,7 @@ def rfm_df(df):
 
 # Load dataset 
 # all_df = pd.read_csv("all_df.csv")
-all_df = pd.read_csv("all_df.csv")
+all_df = pd.read_csv("dashboard/all_df.csv")
 
 # Mengatasi NaN pada order_purchase_timestamp
 all_df['order_purchase_timestamp'] = pd.to_datetime(all_df['order_purchase_timestamp'], errors='coerce')
